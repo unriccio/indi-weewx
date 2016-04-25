@@ -31,6 +31,11 @@ to get data from more sources/weather stations).
 
 ## TODO
 * could this work for non-Davis weather stations? (at least the simulator)
+  * http://www.weewx.com/docs/customizing.htm says: "LOOP packets may or may
+    not contain all the data types. For example, a packet may contain only
+    temperature data, another only barometric data, etc.. This kind of packet
+    is called a partial record packet. For other types of hardware (notably the
+    Vantage series), every LOOP packet contains every data type."
 * test with Meteo (RTS2 should be fine with WeeWX-originated data and INDI
   should be fine with Meteo packets)
 * licensing: TBD (should be compatible with WeeWX and INDI)
